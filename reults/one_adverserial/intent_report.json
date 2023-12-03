@@ -1,0 +1,194 @@
+{
+  "not_payment_methods": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 5,
+    "confused_with": {
+      "payment_methods": 3,
+      "not_all": 2
+    }
+  },
+  "order_status": {
+    "precision": 0.7,
+    "recall": 1.0,
+    "f1-score": 0.8235294117647058,
+    "support": 7,
+    "confused_with": {}
+  },
+  "discount_code": {
+    "precision": 0.5,
+    "recall": 0.875,
+    "f1-score": 0.6363636363636364,
+    "support": 8,
+    "confused_with": {
+      "not_all": 1
+    }
+  },
+  "not_order_status": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 7,
+    "confused_with": {
+      "not_all": 4,
+      "order_status": 3
+    }
+  },
+  "not_order_return": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 6,
+    "confused_with": {
+      "oreder_return": 3,
+      "not_all": 2,
+      "discount_code": 1
+    }
+  },
+  "not_product_stock": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 6,
+    "confused_with": {
+      "product_stock": 4,
+      "not_all": 2
+    }
+  },
+  "product_updates": {
+    "precision": 0.8,
+    "recall": 1.0,
+    "f1-score": 0.888888888888889,
+    "support": 8,
+    "confused_with": {}
+  },
+  "not_discount_code": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 10,
+    "confused_with": {
+      "discount_code": 6,
+      "not_all": 4
+    }
+  },
+  "payment_methods": {
+    "precision": 0.7,
+    "recall": 1.0,
+    "f1-score": 0.8235294117647058,
+    "support": 7,
+    "confused_with": {}
+  },
+  "not_product_updates": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 6,
+    "confused_with": {
+      "not_all": 4,
+      "product_updates": 2
+    }
+  },
+  "not_alternate_info": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 5,
+    "confused_with": {
+      "alternate_info": 5
+    }
+  },
+  "not_order_cancel": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 6,
+    "confused_with": {
+      "order_cancel": 5,
+      "not_all": 1
+    }
+  },
+  "product_stock": {
+    "precision": 0.6,
+    "recall": 0.8571428571428571,
+    "f1-score": 0.7058823529411764,
+    "support": 7,
+    "confused_with": {
+      "inform": 1
+    }
+  },
+  "sizing_clarification": {
+    "precision": 0.7,
+    "recall": 1.0,
+    "f1-score": 0.8235294117647058,
+    "support": 7,
+    "confused_with": {}
+  },
+  "price_match": {
+    "precision": 0.6666666666666666,
+    "recall": 1.0,
+    "f1-score": 0.8,
+    "support": 8,
+    "confused_with": {}
+  },
+  "oreder_return": {
+    "precision": 0.6666666666666666,
+    "recall": 1.0,
+    "f1-score": 0.8,
+    "support": 6,
+    "confused_with": {}
+  },
+  "not_sizing_clarification": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 5,
+    "confused_with": {
+      "sizing_clarification": 3,
+      "not_all": 2
+    }
+  },
+  "order_cancel": {
+    "precision": 0.5454545454545454,
+    "recall": 1.0,
+    "f1-score": 0.7058823529411764,
+    "support": 6,
+    "confused_with": {}
+  },
+  "not_price_match": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 4,
+    "confused_with": {
+      "price_match": 4
+    }
+  },
+  "alternate_info": {
+    "precision": 0.5833333333333334,
+    "recall": 1.0,
+    "f1-score": 0.7368421052631579,
+    "support": 7,
+    "confused_with": {}
+  },
+  "micro avg": {
+    "precision": 0.6388888888888888,
+    "recall": 0.5267175572519084,
+    "f1-score": 0.5774058577405857,
+    "support": 131
+  },
+  "macro avg": {
+    "precision": 0.3231060606060606,
+    "recall": 0.4866071428571429,
+    "f1-score": 0.3872223785846077,
+    "support": 131
+  },
+  "weighted avg": {
+    "precision": 0.3510640758732362,
+    "recall": 0.5267175572519084,
+    "f1-score": 0.4200801769019575,
+    "support": 131
+  },
+  "accuracy": 0.5267175572519084
+}
