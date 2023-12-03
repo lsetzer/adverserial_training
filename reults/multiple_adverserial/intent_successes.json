@@ -1,0 +1,610 @@
+[
+  {
+    "text": "Can I have the instore price online?",
+    "intent": "price_match",
+    "intent_prediction": {
+      "name": "price_match",
+      "confidence": 0.9451841115951538
+    }
+  },
+  {
+    "text": "Do you price match for previous purchases?",
+    "intent": "price_match",
+    "intent_prediction": {
+      "name": "price_match",
+      "confidence": 0.8772403001785278
+    }
+  },
+  {
+    "text": "I just bought this item, but I found it for a lower price on a different website. Can you match that price?",
+    "intent": "price_match",
+    "intent_prediction": {
+      "name": "price_match",
+      "confidence": 0.901472270488739
+    }
+  },
+  {
+    "text": "I noticed that your competitor has a promotion on this product. Will you match their price?",
+    "intent": "price_match",
+    "intent_prediction": {
+      "name": "price_match",
+      "confidence": 0.9580567479133606
+    }
+  },
+  {
+    "text": "If I find a better deal on another online store, can I get the same price here?",
+    "intent": "price_match",
+    "intent_prediction": {
+      "name": "price_match",
+      "confidence": 0.7470550537109375
+    }
+  },
+  {
+    "text": "I have a coupon code, and I found a lower price elsewhere. Can I use the coupon along with a price match?",
+    "intent": "price_match",
+    "intent_prediction": {
+      "name": "price_match",
+      "confidence": 0.8510586619377136
+    }
+  },
+  {
+    "text": "Is there a holiday sale",
+    "intent": "discount_code",
+    "intent_prediction": {
+      "name": "discount_code",
+      "confidence": 0.998977780342102
+    }
+  },
+  {
+    "text": "How often do you run a sale",
+    "intent": "discount_code",
+    "intent_prediction": {
+      "name": "discount_code",
+      "confidence": 0.998681366443634
+    }
+  },
+  {
+    "text": "Does the discount also apply to things already on sale",
+    "intent": "discount_code",
+    "intent_prediction": {
+      "name": "discount_code",
+      "confidence": 0.9996182918548584
+    }
+  },
+  {
+    "text": "Am I limited to using just one discount code.",
+    "intent": "discount_code",
+    "intent_prediction": {
+      "name": "discount_code",
+      "confidence": 0.9143041372299194
+    }
+  },
+  {
+    "text": "The discount code HELLO20 doesn't seem to be working. Is there an issue or another code I can use?",
+    "intent": "discount_code",
+    "intent_prediction": {
+      "name": "discount_code",
+      "confidence": 0.9975952506065369
+    }
+  },
+  {
+    "text": "Can I stack or use two discount codes simultaneously for a single order?",
+    "intent": "discount_code",
+    "intent_prediction": {
+      "name": "discount_code",
+      "confidence": 0.9938627481460571
+    }
+  },
+  {
+    "text": "What current promotions or offers are available right now?",
+    "intent": "discount_code",
+    "intent_prediction": {
+      "name": "discount_code",
+      "confidence": 0.9946504235267639
+    }
+  },
+  {
+    "text": "Can I split my payment",
+    "intent": "payment_methods",
+    "intent_prediction": {
+      "name": "payment_methods",
+      "confidence": 0.9482777118682861
+    }
+  },
+  {
+    "text": "I have a gift card, how do I use it?",
+    "intent": "payment_methods",
+    "intent_prediction": {
+      "name": "payment_methods",
+      "confidence": 0.7305700182914734
+    }
+  },
+  {
+    "text": "Could you guide me through the payment process? I'm not sure how to pay for my order.",
+    "intent": "payment_methods",
+    "intent_prediction": {
+      "name": "payment_methods",
+      "confidence": 0.9525187611579895
+    }
+  },
+  {
+    "text": "Do you include the models size in the example photos",
+    "intent": "sizing_clarification",
+    "intent_prediction": {
+      "name": "sizing_clarification",
+      "confidence": 0.9189239740371704
+    }
+  },
+  {
+    "text": "is there a size calculator I can use",
+    "intent": "sizing_clarification",
+    "intent_prediction": {
+      "name": "sizing_clarification",
+      "confidence": 0.8405454158782959
+    }
+  },
+  {
+    "text": "Do you have unisex sizes",
+    "intent": "sizing_clarification",
+    "intent_prediction": {
+      "name": "sizing_clarification",
+      "confidence": 0.8742573857307434
+    }
+  },
+  {
+    "text": "Is your sizing more in line with American or European standards?",
+    "intent": "sizing_clarification",
+    "intent_prediction": {
+      "name": "sizing_clarification",
+      "confidence": 0.8573464751243591
+    }
+  },
+  {
+    "text": "What size should I order for my kids? Do you have a separate sizing chart for children?",
+    "intent": "sizing_clarification",
+    "intent_prediction": {
+      "name": "sizing_clarification",
+      "confidence": 0.9713928699493408
+    }
+  },
+  {
+    "text": "Are there distinct sizing options for men and women, or is it unisex sizing?",
+    "intent": "sizing_clarification",
+    "intent_prediction": {
+      "name": "sizing_clarification",
+      "confidence": 0.9832994341850281
+    }
+  },
+  {
+    "text": "I can't remember my password can I login with my email",
+    "intent": "alternate_info",
+    "intent_prediction": {
+      "name": "alternate_info",
+      "confidence": 0.9013667106628418
+    }
+  },
+  {
+    "text": "I don't phone number I used to create my account",
+    "intent": "alternate_info",
+    "intent_prediction": {
+      "name": "alternate_info",
+      "confidence": 0.9862420558929443
+    }
+  },
+  {
+    "text": "Instead of an email, can I provide a phone number for my account?",
+    "intent": "alternate_info",
+    "intent_prediction": {
+      "name": "alternate_info",
+      "confidence": 0.9874973297119141
+    }
+  },
+  {
+    "text": "Can someone access my account status using my email address, or is additional information required?",
+    "intent": "alternate_info",
+    "intent_prediction": {
+      "name": "alternate_info",
+      "confidence": 0.9522742629051208
+    }
+  },
+  {
+    "text": "I'm having trouble with my email address; the system says it's not accepted. What should I do?",
+    "intent": "alternate_info",
+    "intent_prediction": {
+      "name": "alternate_info",
+      "confidence": 0.9919176697731018
+    }
+  },
+  {
+    "text": "i don't want to subscribe",
+    "intent": "product_updates",
+    "intent_prediction": {
+      "name": "product_updates",
+      "confidence": 0.905159592628479
+    }
+  },
+  {
+    "text": "Is there an instagram account I can follow",
+    "intent": "product_updates",
+    "intent_prediction": {
+      "name": "product_updates",
+      "confidence": 0.9718082547187805
+    }
+  },
+  {
+    "text": "How can I stay informed about updates and changes on the website?",
+    "intent": "product_updates",
+    "intent_prediction": {
+      "name": "product_updates",
+      "confidence": 0.7218024730682373
+    }
+  },
+  {
+    "text": "Check inventory",
+    "intent": "product_stock",
+    "intent_prediction": {
+      "name": "product_stock",
+      "confidence": 0.9909833669662476
+    }
+  },
+  {
+    "text": "i'm looking for new shoes",
+    "intent": "product_stock",
+    "intent_prediction": {
+      "name": "product_stock",
+      "confidence": 0.38767483830451965
+    }
+  },
+  {
+    "text": "when can I expect the pre order to restock?",
+    "intent": "product_stock",
+    "intent_prediction": {
+      "name": "product_stock",
+      "confidence": 0.987933337688446
+    }
+  },
+  {
+    "text": "Will you restock after an item has sold out",
+    "intent": "product_stock",
+    "intent_prediction": {
+      "name": "product_stock",
+      "confidence": 0.9937259554862976
+    }
+  },
+  {
+    "text": "Do you have white shoes in stock at the moment?",
+    "intent": "product_stock",
+    "intent_prediction": {
+      "name": "product_stock",
+      "confidence": 0.9984167814254761
+    }
+  },
+  {
+    "text": "Can you provide information about the current state of your inventory?",
+    "intent": "product_stock",
+    "intent_prediction": {
+      "name": "product_stock",
+      "confidence": 0.5562989711761475
+    }
+  },
+  {
+    "text": "what is you're return policy",
+    "intent": "oreder_return",
+    "intent_prediction": {
+      "name": "oreder_return",
+      "confidence": 0.946085512638092
+    }
+  },
+  {
+    "text": "Can I make a return if it's been longer than 30 days",
+    "intent": "oreder_return",
+    "intent_prediction": {
+      "name": "oreder_return",
+      "confidence": 0.9600381851196289
+    }
+  },
+  {
+    "text": "is there an option to return after 30 days for store credit?",
+    "intent": "oreder_return",
+    "intent_prediction": {
+      "name": "oreder_return",
+      "confidence": 0.9837667942047119
+    }
+  },
+  {
+    "text": "Initiate a return for the jacket I purchased.",
+    "intent": "oreder_return",
+    "intent_prediction": {
+      "name": "oreder_return",
+      "confidence": 0.9986386895179749
+    }
+  },
+  {
+    "text": "I've changed my mind about the sweater. Can I return it?",
+    "intent": "oreder_return",
+    "intent_prediction": {
+      "name": "oreder_return",
+      "confidence": 0.607517421245575
+    }
+  },
+  {
+    "text": "when will I get charged for the order, can I cancel before I get charged?",
+    "intent": "order_cancel",
+    "intent_prediction": {
+      "name": "order_cancel",
+      "confidence": 0.984446108341217
+    }
+  },
+  {
+    "text": "My order never arrived can I cancel it and get my money back?",
+    "intent": "order_cancel",
+    "intent_prediction": {
+      "name": "order_cancel",
+      "confidence": 0.9833453893661499
+    }
+  },
+  {
+    "text": "I've decided to cancel my order for the sweater.",
+    "intent": "order_cancel",
+    "intent_prediction": {
+      "name": "order_cancel",
+      "confidence": 0.8524348139762878
+    }
+  },
+  {
+    "text": "Please cancel the shoes I ordered; I've changed my mind.",
+    "intent": "order_cancel",
+    "intent_prediction": {
+      "name": "order_cancel",
+      "confidence": 0.9994151592254639
+    }
+  },
+  {
+    "text": "I changed my mind about the color. Can you cancel my order for the backpack?",
+    "intent": "order_cancel",
+    "intent_prediction": {
+      "name": "order_cancel",
+      "confidence": 0.9987199306488037
+    }
+  },
+  {
+    "text": "where is my order?",
+    "intent": "order_status",
+    "intent_prediction": {
+      "name": "order_status",
+      "confidence": 0.8932215571403503
+    }
+  },
+  {
+    "text": "I want to check the status of my order",
+    "intent": "order_status",
+    "intent_prediction": {
+      "name": "order_status",
+      "confidence": 0.9988682270050049
+    }
+  },
+  {
+    "text": "actually can I check the status of my order",
+    "intent": "order_status",
+    "intent_prediction": {
+      "name": "order_status",
+      "confidence": 0.9991161227226257
+    }
+  },
+  {
+    "text": "order status for 12345678",
+    "intent": "order_status",
+    "intent_prediction": {
+      "name": "order_status",
+      "confidence": 0.9992861151695251
+    }
+  },
+  {
+    "text": "Could you please check the current status of my order?",
+    "intent": "order_status",
+    "intent_prediction": {
+      "name": "order_status",
+      "confidence": 0.9887422323226929
+    }
+  },
+  {
+    "text": "I'm wondering when my order will get here. Can you give me an update?",
+    "intent": "order_status",
+    "intent_prediction": {
+      "name": "order_status",
+      "confidence": 0.9950182437896729
+    }
+  },
+  {
+    "text": "I entered the wrong information, but I don't want to change my contact details.",
+    "intent": "not_alternate_info",
+    "intent_prediction": {
+      "name": "not_alternate_info",
+      "confidence": 0.49297869205474854
+    }
+  },
+  {
+    "text": "I don't care if discount codes have expiration dates; it's not a factor for me.",
+    "intent": "not_discount_code",
+    "intent_prediction": {
+      "name": "not_discount_code",
+      "confidence": 0.8995484113693237
+    }
+  },
+  {
+    "text": "I don't care if discount codes last indefinitely or not.",
+    "intent": "not_discount_code",
+    "intent_prediction": {
+      "name": "not_discount_code",
+      "confidence": 0.8809990882873535
+    }
+  },
+  {
+    "text": "I don't need a specific discount code; I'll proceed without any promotions.",
+    "intent": "not_discount_code",
+    "intent_prediction": {
+      "name": "not_discount_code",
+      "confidence": 0.7658926844596863
+    }
+  },
+  {
+    "text": "I'm not concerned about the expiration date of the discount code HELLO20.",
+    "intent": "not_discount_code",
+    "intent_prediction": {
+      "name": "not_discount_code",
+      "confidence": 0.9856563806533813
+    }
+  },
+  {
+    "text": "I received my order, and everything is in perfect condition.",
+    "intent": "not_order_status",
+    "intent_prediction": {
+      "name": "not_order_status",
+      "confidence": 0.9846317768096924
+    }
+  },
+  {
+    "text": "My shoes arrived on time, and I'm happy with the delivery.",
+    "intent": "not_order_status",
+    "intent_prediction": {
+      "name": "not_order_status",
+      "confidence": 0.9785424470901489
+    }
+  },
+  {
+    "text": "My package has been delivered, and I don't need any further updates.",
+    "intent": "not_order_status",
+    "intent_prediction": {
+      "name": "not_order_status",
+      "confidence": 0.9807743430137634
+    }
+  },
+  {
+    "text": "Thank you for the previous update on my order; everything is fine now.",
+    "intent": "not_order_status",
+    "intent_prediction": {
+      "name": "not_order_status",
+      "confidence": 0.87140953540802
+    }
+  },
+  {
+    "text": "I don't care if you accept Apple Pay or not; any payment method is fine.",
+    "intent": "not_payment_methods",
+    "intent_prediction": {
+      "name": "not_payment_methods",
+      "confidence": 0.9839729070663452
+    }
+  },
+  {
+    "text": "I don't care if I can use PayPal or Venmo; any payment method will work for me.",
+    "intent": "not_payment_methods",
+    "intent_prediction": {
+      "name": "not_payment_methods",
+      "confidence": 0.8899374008178711
+    }
+  },
+  {
+    "text": "I don't need assistance; I'll handle the credit card problem on my own.",
+    "intent": "not_payment_methods",
+    "intent_prediction": {
+      "name": "not_payment_methods",
+      "confidence": 0.9901997447013855
+    }
+  },
+  {
+    "text": "I'm not interested in price match; the current pricing is acceptable.",
+    "intent": "not_price_match",
+    "intent_prediction": {
+      "name": "not_price_match",
+      "confidence": 0.9964296221733093
+    }
+  },
+  {
+    "text": "I don't need information about selling products on other sites or matching those prices.",
+    "intent": "not_price_match",
+    "intent_prediction": {
+      "name": "not_price_match",
+      "confidence": 0.8566341400146484
+    }
+  },
+  {
+    "text": "I won't be using a price from someone else's website; your pricing is acceptable.",
+    "intent": "not_price_match",
+    "intent_prediction": {
+      "name": "not_price_match",
+      "confidence": 0.9363794922828674
+    }
+  },
+  {
+    "text": "I'm not concerned about the inventory right now; just browsing.",
+    "intent": "not_product_stock",
+    "intent_prediction": {
+      "name": "not_product_stock",
+      "confidence": 0.8588268160820007
+    }
+  },
+  {
+    "text": "I won't be checking the inventory; just wanted to browse the website.",
+    "intent": "not_product_stock",
+    "intent_prediction": {
+      "name": "not_product_stock",
+      "confidence": 0.9551886320114136
+    }
+  },
+  {
+    "text": "unsubscribe from updates.",
+    "intent": "not_product_updates",
+    "intent_prediction": {
+      "name": "not_product_updates",
+      "confidence": 0.9947898387908936
+    }
+  },
+  {
+    "text": "I won't be signing up for updates at the moment.",
+    "intent": "not_product_updates",
+    "intent_prediction": {
+      "name": "not_product_updates",
+      "confidence": 0.9883860349655151
+    }
+  },
+  {
+    "text": "Cancel the return process; I'd like to keep the shoes I bought.",
+    "intent": "not_order_return",
+    "intent_prediction": {
+      "name": "not_order_return",
+      "confidence": 0.5990169048309326
+    }
+  },
+  {
+    "text": "I've reconsidered; I don't want to return anything at the moment.",
+    "intent": "not_order_return",
+    "intent_prediction": {
+      "name": "not_order_return",
+      "confidence": 0.5493602156639099
+    }
+  },
+  {
+    "text": "I've changed my mind about returning something; I'll be keeping it.",
+    "intent": "not_order_return",
+    "intent_prediction": {
+      "name": "not_order_return",
+      "confidence": 0.9965366125106812
+    }
+  },
+  {
+    "text": "I'll be keeping all the items, so there's no need for a return.",
+    "intent": "not_order_return",
+    "intent_prediction": {
+      "name": "not_order_return",
+      "confidence": 0.9895289540290833
+    }
+  },
+  {
+    "text": "I'm not interested in sizing listed in inches; standard sizes are fine for me.",
+    "intent": "not_sizing_clarification",
+    "intent_prediction": {
+      "name": "not_sizing_clarification",
+      "confidence": 0.5981829762458801
+    }
+  }
+]
