@@ -1,0 +1,506 @@
+[
+  {
+    "text": "I'm having trouble applying a discount to my order. Can you help me with that?",
+    "intent": "discount_code",
+    "intent_prediction": {
+      "name": "order_cancel",
+      "confidence": 0.5365657806396484
+    }
+  },
+  {
+    "text": "What's the latest content or features added to the site?",
+    "intent": "product_updates",
+    "intent_prediction": {
+      "name": "alternate_info",
+      "confidence": 0.5735485553741455
+    }
+  },
+  {
+    "text": "i'm looking for new shoes",
+    "intent": "product_stock",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.7700981497764587
+    }
+  },
+  {
+    "text": "I'll use a different email address; it seems the one I entered is not accepted.",
+    "intent": "not_alternate_info",
+    "intent_prediction": {
+      "name": "alternate_info",
+      "confidence": 0.999512791633606
+    }
+  },
+  {
+    "text": "I'm not comfortable sharing my contact info; what happens with that information?",
+    "intent": "not_alternate_info",
+    "intent_prediction": {
+      "name": "alternate_info",
+      "confidence": 0.999537467956543
+    }
+  },
+  {
+    "text": "I entered the wrong information, but I don't want to change my contact details.",
+    "intent": "not_alternate_info",
+    "intent_prediction": {
+      "name": "alternate_info",
+      "confidence": 0.9996515512466431
+    }
+  },
+  {
+    "text": "I don't have an email address to provide; can I leave that field blank?",
+    "intent": "not_alternate_info",
+    "intent_prediction": {
+      "name": "alternate_info",
+      "confidence": 0.9998735189437866
+    }
+  },
+  {
+    "text": "What happens with the contact information I provide? I'm not concerned about confidentiality.",
+    "intent": "not_alternate_info",
+    "intent_prediction": {
+      "name": "alternate_info",
+      "confidence": 0.9995319843292236
+    }
+  },
+  {
+    "text": "I don't need to use two discount codes at a time; any pricing is fine.",
+    "intent": "not_discount_code",
+    "intent_prediction": {
+      "name": "discount_code",
+      "confidence": 0.9979268312454224
+    }
+  },
+  {
+    "text": "I'm not interested in knowing about the current offers; regular prices are fine.",
+    "intent": "not_discount_code",
+    "intent_prediction": {
+      "name": "price_match",
+      "confidence": 0.39324772357940674
+    }
+  },
+  {
+    "text": "I'm not concerned about finding a code to use; regular pricing works for me.",
+    "intent": "not_discount_code",
+    "intent_prediction": {
+      "name": "product_updates",
+      "confidence": 0.35879069566726685
+    }
+  },
+  {
+    "text": "I don't care if discount codes have expiration dates; it's not a factor for me.",
+    "intent": "not_discount_code",
+    "intent_prediction": {
+      "name": "discount_code",
+      "confidence": 0.9979523420333862
+    }
+  },
+  {
+    "text": "I'm not interested in the kind of deals you have right now.",
+    "intent": "not_discount_code",
+    "intent_prediction": {
+      "name": "discount_code",
+      "confidence": 0.9890064001083374
+    }
+  },
+  {
+    "text": "I don't care if discount codes last indefinitely or not.",
+    "intent": "not_discount_code",
+    "intent_prediction": {
+      "name": "discount_code",
+      "confidence": 0.99916672706604
+    }
+  },
+  {
+    "text": "I'm not interested in Black Friday promotions; regular pricing is fine.",
+    "intent": "not_discount_code",
+    "intent_prediction": {
+      "name": "discount_code",
+      "confidence": 0.6641048192977905
+    }
+  },
+  {
+    "text": "I don't need a specific discount code; I'll proceed without any promotions.",
+    "intent": "not_discount_code",
+    "intent_prediction": {
+      "name": "discount_code",
+      "confidence": 0.9851924180984497
+    }
+  },
+  {
+    "text": "I'm not concerned about the expiration date of the discount code HELLO20.",
+    "intent": "not_discount_code",
+    "intent_prediction": {
+      "name": "discount_code",
+      "confidence": 0.9979535341262817
+    }
+  },
+  {
+    "text": "I don't care about ongoing promotions or the types of deals currently offered.",
+    "intent": "not_discount_code",
+    "intent_prediction": {
+      "name": "discount_code",
+      "confidence": 0.9986429810523987
+    }
+  },
+  {
+    "text": "I no longer want to cancel the shoes; I'm excited to receive them.",
+    "intent": "not_order_cancel",
+    "intent_prediction": {
+      "name": "order_cancel",
+      "confidence": 0.5026220679283142
+    }
+  },
+  {
+    "text": "After careful consideration, I've decided to keep my original order.",
+    "intent": "not_order_cancel",
+    "intent_prediction": {
+      "name": "order_cancel",
+      "confidence": 0.3523670434951782
+    }
+  },
+  {
+    "text": "Please continue processing my order; I've changed my mind about canceling.",
+    "intent": "not_order_cancel",
+    "intent_prediction": {
+      "name": "order_cancel",
+      "confidence": 0.9881654977798462
+    }
+  },
+  {
+    "text": "Upon reflection, I've decided not to cancel my order; everything is as planned.",
+    "intent": "not_order_cancel",
+    "intent_prediction": {
+      "name": "order_cancel",
+      "confidence": 0.9400783777236938
+    }
+  },
+  {
+    "text": "I just submitted an order and would like to proceed with it. No need to cancel.",
+    "intent": "not_order_cancel",
+    "intent_prediction": {
+      "name": "order_cancel",
+      "confidence": 0.9916461110115051
+    }
+  },
+  {
+    "text": "I'd like to maintain my recent order; there's no need to cancel it.",
+    "intent": "not_order_cancel",
+    "intent_prediction": {
+      "name": "order_cancel",
+      "confidence": 0.9803135991096497
+    }
+  },
+  {
+    "text": "I don't want to check the status of my order",
+    "intent": "not_order_status",
+    "intent_prediction": {
+      "name": "order_status",
+      "confidence": 0.9995718598365784
+    }
+  },
+  {
+    "text": "do not check status of my order",
+    "intent": "not_order_status",
+    "intent_prediction": {
+      "name": "order_status",
+      "confidence": 0.9996141195297241
+    }
+  },
+  {
+    "text": "I received my order, and everything is in perfect condition.",
+    "intent": "not_order_status",
+    "intent_prediction": {
+      "name": "order_status",
+      "confidence": 0.7819487452507019
+    }
+  },
+  {
+    "text": "My shoes arrived on time, and I'm happy with the delivery.",
+    "intent": "not_order_status",
+    "intent_prediction": {
+      "name": "order_status",
+      "confidence": 0.6075586080551147
+    }
+  },
+  {
+    "text": "My package has been delivered, and I don't need any further updates.",
+    "intent": "not_order_status",
+    "intent_prediction": {
+      "name": "product_updates",
+      "confidence": 0.48703187704086304
+    }
+  },
+  {
+    "text": "Thank you for the previous update on my order; everything is fine now.",
+    "intent": "not_order_status",
+    "intent_prediction": {
+      "name": "order_status",
+      "confidence": 0.8978264331817627
+    }
+  },
+  {
+    "text": "I've received my order, so no need to check the status anymore.",
+    "intent": "not_order_status",
+    "intent_prediction": {
+      "name": "order_status",
+      "confidence": 0.9545186758041382
+    }
+  },
+  {
+    "text": "I don't care if you accept Apple Pay or not; any payment method is fine.",
+    "intent": "not_payment_methods",
+    "intent_prediction": {
+      "name": "payment_methods",
+      "confidence": 0.9916473627090454
+    }
+  },
+  {
+    "text": "I'm not concerned about the security of the online payment platform.",
+    "intent": "not_payment_methods",
+    "intent_prediction": {
+      "name": "payment_methods",
+      "confidence": 0.9998418092727661
+    }
+  },
+  {
+    "text": "I don't care if I can use PayPal or Venmo; any payment method will work for me.",
+    "intent": "not_payment_methods",
+    "intent_prediction": {
+      "name": "payment_methods",
+      "confidence": 0.9992840886116028
+    }
+  },
+  {
+    "text": "I don't need assistance; I'll handle the credit card problem on my own.",
+    "intent": "not_payment_methods",
+    "intent_prediction": {
+      "name": "payment_methods",
+      "confidence": 0.9883755445480347
+    }
+  },
+  {
+    "text": "I'm not concerned about the security measures of the online payment platform.",
+    "intent": "not_payment_methods",
+    "intent_prediction": {
+      "name": "payment_methods",
+      "confidence": 0.9999010562896729
+    }
+  },
+  {
+    "text": "I'm not interested in price match; the current pricing is acceptable.",
+    "intent": "not_price_match",
+    "intent_prediction": {
+      "name": "price_match",
+      "confidence": 0.9890917539596558
+    }
+  },
+  {
+    "text": "I don't care about honoring other store's prices; your pricing is fine for me.",
+    "intent": "not_price_match",
+    "intent_prediction": {
+      "name": "price_match",
+      "confidence": 0.996046245098114
+    }
+  },
+  {
+    "text": "I don't need information about selling products on other sites or matching those prices.",
+    "intent": "not_price_match",
+    "intent_prediction": {
+      "name": "price_match",
+      "confidence": 0.9991832375526428
+    }
+  },
+  {
+    "text": "I won't be using a price from someone else's website; your pricing is acceptable.",
+    "intent": "not_price_match",
+    "intent_prediction": {
+      "name": "price_match",
+      "confidence": 0.9964104294776917
+    }
+  },
+  {
+    "text": "I'm not interested in white shoes at the moment, thank you.",
+    "intent": "not_product_stock",
+    "intent_prediction": {
+      "name": "product_stock",
+      "confidence": 0.516965389251709
+    }
+  },
+  {
+    "text": "I'm not concerned about the inventory right now; just browsing.",
+    "intent": "not_product_stock",
+    "intent_prediction": {
+      "name": "product_stock",
+      "confidence": 0.9212697744369507
+    }
+  },
+  {
+    "text": "I don't need size 9 shoes, so no need to check if they are in stock.",
+    "intent": "not_product_stock",
+    "intent_prediction": {
+      "name": "product_stock",
+      "confidence": 0.9895471334457397
+    }
+  },
+  {
+    "text": "I won't be checking the inventory; just wanted to browse the website.",
+    "intent": "not_product_stock",
+    "intent_prediction": {
+      "name": "product_stock",
+      "confidence": 0.958685576915741
+    }
+  },
+  {
+    "text": "I've decided not to proceed with purchasing any special shoes, so no need to check for them.",
+    "intent": "not_product_stock",
+    "intent_prediction": {
+      "name": "product_stock",
+      "confidence": 0.46928951144218445
+    }
+  },
+  {
+    "text": "I'm not interested in size 9 shoes at the moment, so no need to check stock.",
+    "intent": "not_product_stock",
+    "intent_prediction": {
+      "name": "product_stock",
+      "confidence": 0.9643535614013672
+    }
+  },
+  {
+    "text": "unsubscribe from updates.",
+    "intent": "not_product_updates",
+    "intent_prediction": {
+      "name": "product_updates",
+      "confidence": 0.9997358918190002
+    }
+  },
+  {
+    "text": "I'm not interested in what's new on the site right now.",
+    "intent": "not_product_updates",
+    "intent_prediction": {
+      "name": "product_updates",
+      "confidence": 0.8360061645507812
+    }
+  },
+  {
+    "text": "I don't need updates; I'm fine with the current information.",
+    "intent": "not_product_updates",
+    "intent_prediction": {
+      "name": "alternate_info",
+      "confidence": 0.8522790670394897
+    }
+  },
+  {
+    "text": "I won't be signing up for updates at the moment.",
+    "intent": "not_product_updates",
+    "intent_prediction": {
+      "name": "product_updates",
+      "confidence": 0.9954968690872192
+    }
+  },
+  {
+    "text": "I prefer not to subscribe to product updates; I'm not interested.",
+    "intent": "not_product_updates",
+    "intent_prediction": {
+      "name": "product_updates",
+      "confidence": 0.997677743434906
+    }
+  },
+  {
+    "text": "I won't be subscribing to any updates on the website.",
+    "intent": "not_product_updates",
+    "intent_prediction": {
+      "name": "product_updates",
+      "confidence": 0.9991415739059448
+    }
+  },
+  {
+    "text": "I've decided not to return any shoes; I'm happy with my purchase.",
+    "intent": "not_order_return",
+    "intent_prediction": {
+      "name": "oreder_return",
+      "confidence": 0.868296205997467
+    }
+  },
+  {
+    "text": "I won't be initiating any returns; all the items are satisfactory.",
+    "intent": "not_order_return",
+    "intent_prediction": {
+      "name": "oreder_return",
+      "confidence": 0.9103155732154846
+    }
+  },
+  {
+    "text": "Cancel the return process; I'd like to keep the shoes I bought.",
+    "intent": "not_order_return",
+    "intent_prediction": {
+      "name": "oreder_return",
+      "confidence": 0.9320116639137268
+    }
+  },
+  {
+    "text": "I've reconsidered; I don't want to return anything at the moment.",
+    "intent": "not_order_return",
+    "intent_prediction": {
+      "name": "oreder_return",
+      "confidence": 0.9542271494865417
+    }
+  },
+  {
+    "text": "I've changed my mind about returning something; I'll be keeping it.",
+    "intent": "not_order_return",
+    "intent_prediction": {
+      "name": "oreder_return",
+      "confidence": 0.9140862822532654
+    }
+  },
+  {
+    "text": "I'll be keeping all the items, so there's no need for a return.",
+    "intent": "not_order_return",
+    "intent_prediction": {
+      "name": "oreder_return",
+      "confidence": 0.9123989939689636
+    }
+  },
+  {
+    "text": "I don't care about men's and women's sizing; any size will do.",
+    "intent": "not_sizing_clarification",
+    "intent_prediction": {
+      "name": "sizing_clarification",
+      "confidence": 0.998534083366394
+    }
+  },
+  {
+    "text": "I don't need to know what size to get; I'll figure it out when the item arrives.",
+    "intent": "not_sizing_clarification",
+    "intent_prediction": {
+      "name": "sizing_clarification",
+      "confidence": 0.5870498418807983
+    }
+  },
+  {
+    "text": "I'm not interested in sizing listed in inches; standard sizes are fine for me.",
+    "intent": "not_sizing_clarification",
+    "intent_prediction": {
+      "name": "sizing_clarification",
+      "confidence": 0.9984295964241028
+    }
+  },
+  {
+    "text": "I don't care if reviews include sizes; it's not relevant to my decision.",
+    "intent": "not_sizing_clarification",
+    "intent_prediction": {
+      "name": "sizing_clarification",
+      "confidence": 0.9744122624397278
+    }
+  },
+  {
+    "text": "I'm not unsure about the size; any size will work for me.",
+    "intent": "not_sizing_clarification",
+    "intent_prediction": {
+      "name": "sizing_clarification",
+      "confidence": 0.9941832423210144
+    }
+  }
+]
