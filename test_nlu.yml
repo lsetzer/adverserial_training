@@ -1,0 +1,193 @@
+version: "3.1"
+nlu:
+- intent: price_match
+  examples: |
+    - Can I have the instore price online? 
+    - Do you price match for previous purchases?
+    - I just bought this item, but I found it for a lower price on a different website. Can you match that price?
+    - I purchased this product last week, and now it's on sale. Can I get a price adjustment?
+    - I noticed that your competitor has a promotion on this product. Will you match their price?
+    - If I find a better deal on another online store, can I get the same price here?
+    - I have a coupon code, and I found a lower price elsewhere. Can I use the coupon along with a price match?
+    - Do you offer a price matching policy for items bought during a specific promotion or sale period?
+
+- intent: discount_code
+  examples: |
+    - Is there a holiday sale
+    - How often do you run a sale
+    - Does the discount also apply to things already on sale
+    - Am I limited to using just one discount code.
+    - I'm having trouble applying a discount to my order. Can you help me with that?
+    - The discount code HELLO20 doesn't seem to be working. Is there an issue or another code I can use?
+    - Can I stack or use two discount codes simultaneously for a single order?
+    - What current promotions or offers are available right now?
+
+- intent: payment_methods
+  examples: |
+    - I'm getting an error while trying to pay
+    - Can I split my payment 
+    - how do I pay using multiple cards
+    - I have a gift card, how do I use it?
+    - What are the available payment methods that your company accepts?
+    - Could you guide me through the payment process? I'm not sure how to pay for my order.
+    - Do you accept Apple Pay as a payment method?
+
+- intent: sizing_clarification
+  examples: |
+    - Do you include the models size in the example photos
+    - is there a size calculator I can use
+    - Do you have unisex sizes
+    - Is your sizing more in line with American or European standards?
+    - I can't find the size chart. Where can I locate it on your website?
+    - What size should I order for my kids? Do you have a separate sizing chart for children?
+    - Are there distinct sizing options for men and women, or is it unisex sizing?
+
+- intent: alternate_info
+  examples: |
+    - what should I put for an international number
+    - I can't remember my password can I login with my email
+    - I don't phone number I used to create my account
+    - Instead of an email, can I provide a phone number for my account?
+    - Can someone access my account status using my email address, or is additional information required?
+    - Is it mandatory to include my phone number in my account details?
+    - I'm having trouble with my email address; the system says it's not accepted. What should I do?
+
+- intent: product_updates
+  examples: |
+    - i don't want to subscribe
+    - please help me unsuscripe
+    - Is there an instagram account I can follow
+    - can I get alerts for specific products
+    - Can I sign up for text updates for sales
+    - What's the latest content or features added to the site?
+    - How can I stay informed about updates and changes on the website?
+    - I'm interested in receiving regular updates. How do I sign up for them?
+
+- intent: product_stock
+  examples: |
+    - Check inventory
+    - i'm looking for new shoes
+    - when can I expect the pre order to restock?
+    - Will you restock after an item has sold out
+    - Are there any black shoes currently available in your inventory?
+    - Do you have white shoes in stock at the moment?
+    - Can you provide information about the current state of your inventory?
+
+- intent: oreder_return
+  examples: |
+    - what is you're return policy
+    - Can I make a return if it's been longer than 30 days
+    - is there an option to return after 30 days for store credit?
+    - Initiate a return for the jacket I purchased.
+    - I've changed my mind about the sweater. Can I return it?
+    - Could you guide me on the process of returning these jeans?
+
+- intent: order_cancel
+  examples: |
+    - when will I get charged for the order, can I cancel before I get charged?
+    - My order never arrived can I cancel it and get my money back?
+    - I've decided to cancel my order for the sweater.
+    - Please cancel the shoes I ordered; I've changed my mind.
+    - I changed my mind about the color. Can you cancel my order for the backpack?
+    - I would like to cancel the order I placed earlier.
+
+- intent: order_status
+  examples: |
+    - where is my order?
+    - I want to check the status of my order
+    - actually can I check the status of my order
+    - order status for 12345678
+    - Could you please check the current status of my order?
+    - When can I expect my shoes to arrive? Can you provide an estimated delivery date?
+    - I'm wondering when my order will get here. Can you give me an update?
+
+- intent: not_alternate_info
+  examples: |
+    - I'll use a different email address; it seems the one I entered is not accepted.
+    - I'm not comfortable sharing my contact info; what happens with that information?
+    - I entered the wrong information, but I don't want to change my contact details.
+    - I don't have an email address to provide; can I leave that field blank?
+    - What happens with the contact information I provide? I'm not concerned about confidentiality.
+
+- intent: not_discount_code
+  examples: |
+    - I don't need to use two discount codes at a time; any pricing is fine.
+    - I'm not interested in knowing about the current offers; regular prices are fine.
+    - I'm not concerned about finding a code to use; regular pricing works for me.
+    - I don't care if discount codes have expiration dates; it's not a factor for me.
+    - I'm not interested in the kind of deals you have right now.
+    - I don't care if discount codes last indefinitely or not.
+    - I'm not interested in Black Friday promotions; regular pricing is fine.
+    - I don't need a specific discount code; I'll proceed without any promotions.
+    - I'm not concerned about the expiration date of the discount code HELLO20.
+    - I don't care about ongoing promotions or the types of deals currently offered.
+
+- intent: not_order_cancel
+  examples: |
+    - I no longer want to cancel the shoes; I'm excited to receive them.
+    - After careful consideration, I've decided to keep my original order.
+    - Please continue processing my order; I've changed my mind about canceling.
+    - Upon reflection, I've decided not to cancel my order; everything is as planned.
+    - I just submitted an order and would like to proceed with it. No need to cancel.
+    - I'd like to maintain my recent order; there's no need to cancel it.
+
+- intent: not_order_status
+  examples: |
+    - I don't want to check the status of my order
+    - do not check status of my order
+    - I received my order, and everything is in perfect condition.
+    - My shoes arrived on time, and I'm happy with the delivery.
+    - My package has been delivered, and I don't need any further updates.
+    - Thank you for the previous update on my order; everything is fine now.
+    - I've received my order, so no need to check the status anymore.
+
+- intent: not_payment_methods
+  examples: |
+    - I don't care if you accept Apple Pay or not; any payment method is fine.
+    - I'm not concerned about the security of the online payment platform.
+    - I don't care if I can use PayPal or Venmo; any payment method will work for me.
+    - I don't need assistance; I'll handle the credit card problem on my own.
+    - I'm not concerned about the security measures of the online payment platform.
+
+- intent: not_price_match
+  examples: |
+    - I'm not interested in price match; the current pricing is acceptable.
+    - I don't care about honoring other store's prices; your pricing is fine for me.
+    - I don't need information about selling products on other sites or matching those prices.
+    - I won't be using a price from someone else's website; your pricing is acceptable.
+
+- intent: not_product_stock
+  examples: |
+    - I'm not interested in white shoes at the moment, thank you.
+    - I'm not concerned about the inventory right now; just browsing.
+    - I don't need size 9 shoes, so no need to check if they are in stock.
+    - I won't be checking the inventory; just wanted to browse the website.
+    - I've decided not to proceed with purchasing any special shoes, so no need to check for them.
+    - I'm not interested in size 9 shoes at the moment, so no need to check stock.
+
+- intent: not_product_updates
+  examples: |
+    - unsubscribe from updates.
+    - I'm not interested in what's new on the site right now.
+    - I don't need updates; I'm fine with the current information.
+    - I won't be signing up for updates at the moment.
+    - I prefer not to subscribe to product updates; I'm not interested.
+    - I won't be subscribing to any updates on the website.
+
+
+- intent: not_order_return
+  examples: |
+    - I've decided not to return any shoes; I'm happy with my purchase.
+    - I won't be initiating any returns; all the items are satisfactory.
+    - Cancel the return process; I'd like to keep the shoes I bought.
+    - I've reconsidered; I don't want to return anything at the moment.
+    - I've changed my mind about returning something; I'll be keeping it.
+    - I'll be keeping all the items, so there's no need for a return.
+
+- intent: not_sizing_clarification
+  examples: |
+    - I don't care about men's and women's sizing; any size will do.
+    - I don't need to know what size to get; I'll figure it out when the item arrives.
+    - I'm not interested in sizing listed in inches; standard sizes are fine for me.
+    - I don't care if reviews include sizes; it's not relevant to my decision.
+    - I'm not unsure about the size; any size will work for me.

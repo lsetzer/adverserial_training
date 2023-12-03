@@ -1,0 +1,241 @@
+version: "3.1"
+nlu:
+- intent: order_status
+  examples: |
+    - check status of my order
+    - when are my shoes coming in
+    - when will they get here
+    - I'd like to check the status of my order pls
+    - check status
+    - I'd like an update on my order
+    - Check status of my order
+    - I haven't received my order yet, can we check that?
+    - I'd like to check the status of my order, please. Can you assist with that?
+    - Can you quickly check the status of my recent order?
+    - I'm looking for an update on the status of my order. Can you provide one?
+    - Please check the status of my order and let me know the progress.
+    - I haven't received my order yet. Can we check the status to see where it is?
+    - Where is my order? It hasn't arrived, and I'm curious about its status.
+    - I want to check the status of my order. Is there a way to do that?
+    - Actually, can I get an update on the status of my order?
+    - Can you provide the order status for the email address example@rasa.com?
+
+
+- intent: order_cancel
+  examples: |
+    - i'd like to cancel my order
+    - cancel my shoes
+    - I changed my mind on my order
+    - cancel my order
+    - I need to cancel my order
+    - I just placed an order but need to cancel
+    - Can you help me cancel an order that hasn't shipped yet?
+    - stop the order I just placed
+    - Can you help me cancel my recent order? I made a mistake.
+    - I just submitted an order, but I need to cancel it immediately.
+    - Is it possible to cancel an order that hasn't been shipped yet? I just placed it.
+    - Stop the order I just placed for the headphones, please.
+    - When will I be charged for my order, and is it possible to cancel before the charge goes through?
+    - My order hasn't arrived, and I'd like to cancel it. Can I get a refund?
+
+- intent: oreder_return
+  examples: |
+    - start a return
+    - I don't want my shoes anymore
+    - how do I return these?
+    - return some shoes
+    - Which items are available to return?
+    - Start a return
+    - Okay. I would like to return some shoes I bought
+    - yeah I want to return something
+    - I'd like to return a few items, particularly some shoes.
+    - Which products are eligible for return, and how can I initiate the process?
+    - I need to start a return for the shirt I received.
+    - I've decided I want to return the shoes I bought. What's the next step?
+    - Yes, I want to return something I ordered recently.
+    - What is your return policy regarding clothing items?
+    - If it's been longer than 30 days, am I still able to make a return?
+    - Is there an option to return items after 30 days in exchange for store credit?
+
+- intent: product_stock
+  examples: |
+    - do you have any black shoes in stock?
+    - what about white shoes
+    - what's your inventory
+    - are you out of size 9 shoes
+    - check inventory
+    - do you have my special shoes in stock
+    - Are you out of stock for size 9 shoes, or do you have them available?
+    - Could you please check the inventory to see if the item I'm looking for is in stock?
+    - I'm searching for a specific pair of shoes. Can you check if you have them in stock?
+    - Please check the inventory for the availability of the shoes I'm looking for.
+    - I'm in the market for new shoes. What options do you currently have in stock?
+    - When can I expect the pre-order items to be restocked?
+    - Will you restock an item after it has sold out, or is it a limited-edition product?
+
+- intent: product_updates
+  examples: |
+    - what's new on the site?
+    - how do I find out updates
+    - I'd like to sign up for updates
+    - Subscribe to product updates
+    - subscribe to updates
+    - Is there a way to subscribe to specific product updates on the website?
+    - Can I subscribe to general updates about the website and its offerings?
+    - I prefer not to subscribe. Is there another way to stay informed about site changes?
+    - I mistakenly subscribed and would like to unsubscribe. Can you help me with that?
+    - Is there an official Instagram account for the website that I can follow for updates?
+    - Can I set up alerts for specific products so that I know when they become available or go on sale?
+    - Is there an option to sign up for text updates regarding sales and promotions?
+
+- intent: alternate_info
+  examples: |
+    - Can I provide a phone number instead?
+    - Can anyone look up my status with my e-mail address?
+    - Do I have to add my phone number
+    - My email address says it's not accepted
+    - What do you do with my contact info 
+    - Can I change my contact info I entered the wrong information
+    - I don't have an email address can I leave that blank
+    - What do you do with the contact information I provide? Is it kept confidential?
+    - I accidentally entered the wrong contact information. Can I change it, and if so, how?
+    - I don't have an email address; can I leave that field blank when creating an account?
+    - For an international number, what format should I use when entering it into the system?
+    - I forgot my password. Can I log in using my email address instead?
+    - I no longer have access to the phone number I used to create my account. How can I update it?
+
+- intent: sizing_clarification
+  examples: |
+    - American or european sizing?
+    - Where is the size chart
+    - what size should I order for my kids
+    - are there mens and womens sizing?
+    - How do I know what size I should get?
+    - Do you have sizing that is listed in inches?
+    - Are there reviews that include sizes
+    - I'm unsure about what size to get. How can I determine the right size for my order?
+    - Do you provide sizing information in inches, or is it primarily in standard small, medium, large, etc.?
+    - Are there customer reviews that mention the sizing of the product they purchased?
+    - In the example photos, do you include information about the model's size to help customers gauge the fit?
+    - Is there a size calculator available on your website to assist with determining the correct size?
+    - Do you offer unisex sizes for your products, or are they specifically categorized as men's or women's sizes?
+
+- intent: payment_methods
+  examples: |
+    - what kind of payment methods do you offer?
+    - how do I pay  
+    - do you take apply pay?
+    - is the online payment platform secure
+    - can I use paypal or venmo
+    - I'm having a problem with my credit card
+    - I'm concerned about the security of your online payment platform. Can you provide information about its security measures?
+    - Can I make a payment using PayPal or Venmo, or are there specific restrictions?
+    - I'm experiencing difficulties with my credit card when trying to make a payment. Can you assist me with this issue?
+    - I keep encountering an error message when attempting to complete my payment. What could be the problem, and how can I resolve it?
+    - Is it possible to split my payment between different methods, such as credit card and PayPal?
+    - How can I make a payment using multiple credit cards for a single transaction?
+    - I received a gift card. Could you provide instructions on how to apply it to my purchase?
+
+- intent: discount_code
+  examples: |
+    - I'm trying to appy a discount for order
+    - discount code HELLO20 won't apply 
+    - Can I have two discount codes at a time
+    - what offers do you have right now
+    - is there a a code I can use 
+    - Do codes have an experation date
+    - what kind of deals do you have
+    - Do codes last indefinitely
+    - are you running anything for black friday
+    - Is there a specific discount code I can use for my purchase, or are there ongoing promotions?
+    - Do your discount codes have expiration dates? If so, when does the code HELLO20 expire?
+    - What types of deals or discounts are currently being offered by your company?
+    - Do discount codes last indefinitely, or is there a time limit on their usage?
+    - Will you have any special promotions or discounts for Black Friday this year?
+    - Is there a holiday sale or any upcoming seasonal promotions?
+    - How often does your company run sales or offer special discounts?
+    - If a product is already on sale, does the discount code also apply to it?
+    - Am I restricted to using only one discount code per order, or can I apply multiple codes?
+
+
+- intent: price_match 
+  examples: |
+    - I just placed an order but see that it's cheaper on amazon, do you price match?
+    - I ordered before the summer sale, can I have the same discount
+    - Can you match a price from another store
+    - Can I use a discount code with price match 
+    - Do you have price match
+    - do you honor other store's prices
+    - Do you sell your products on other sites?
+    - Can I use a price from someone elses website
+    - I saw your product listed on another website at a lower cost. Do you honor their prices?
+    - Are your products available on third-party websites, and if so, do you match the prices listed there?
+    - Can I apply a discount code to an online purchase and still request a price match?
+    - I prefer shopping in-store, but I noticed the online price is lower. Can I get the in-store price when purchasing online?
+    - I recently bought a product from your store, and now I see it at a reduced price. Do you offer retroactive price matching?
+
+
+- intent: inform
+  examples: |
+    - example@rasa.com
+    - my email is example@yahoo.com
+    - it's example@gmail.com
+    - black shoes
+    - white ones
+    - I'm looking for orange shoes
+    - brown
+    - blue
+    - it's 123
+    - it's a@b.com
+    - xyz@hulaloo.ai
+    - gray
+    - Maize and blue
+    - wait actually that email is wrong. it should be asdf1@asdf.com
+    - asdf@asdf.com
+    - Grey
+    - test@test.com
+- intent: order_shoes
+  examples: |
+    - i want to buy shoes
+    - no, don't want to do a return, want to purchase new shoes
+    - since they're in stock, how about I place an order
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+    - Nah, I would not like to be added to the list
+    - nope
+    - u stink
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+    - yo
+    - HEY
+    - heyy
+    - Hey!!!
+    - hallo?

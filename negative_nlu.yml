@@ -1,0 +1,154 @@
+version: "3.1"
+nlu:
+
+# - intent: not_alternate_info
+#   examples: |
+#     - I prefer not to provide a phone number; can I proceed without it?
+#     - I'd rather not have my status looked up with my email address; it's not necessary.
+#     - I don't want to add my phone number; is it mandatory?
+#     - I mistakenly entered the wrong contact information, but I don't want to change it.
+#     - I don't have an email address, and I don't want to provide one when creating an account.
+#     - I won't be providing an international number; I'll leave that field empty.
+#     - I won't be logging in with my email address; I'll use a different method.
+#     - I won't be updating my phone number; I no longer use the one provided during account creation.
+
+
+# - intent: not_discount_code
+#   examples: |
+#     - I don't want to apply any discount to my order.
+#     - I understand that I can only use one discount code at a time.
+#     - Are there any codes that do not have an expiration date?
+#     - I'm not interested in applying any discounts to my order.
+#     - I don't care that the discount code HELLO20 won't apply.
+#     - I'm not interested in whether discount codes last indefinitely or have time limits.
+#     - I'm not concerned about special promotions or discounts for Black Friday.
+#     - I don't need information about a holiday sale or upcoming seasonal promotions.
+#     - I'm not concerned about how often your company runs sales or offers discounts.
+#     - I'm not interested in applying a discount code to an already on-sale product.
+#     - I don't need to apply multiple discount codes; one is sufficient for me 
+
+# - intent: not_order_cancel
+#   examples: |
+#     - proceed with my order
+#     - Can you help me process and confirm my order?
+#     - I've decided to keep my order; please proceed with it.
+#     - Please do not stop the order for the headphones; I want to proceed with the purchase.
+#     - I made a mistake earlier; I do not need to cancel my recent order.
+#     - I'm okay with the charge for my order; no need to cancel it.
+#     - I've received my order; no refund is necessary.
+#     - My order has already shipped, and I'm happy to keep it.
+
+# - intent: not_order_status
+#   examples: |
+#     - my shoes have arrived.
+#     - not inquiring about the status of my order
+#     - I have received my order and everything is fine.
+#     - I appreciate the update you provided earlier; everything is in order.
+#     - Received my order without any issues; no need to check the status.
+#     - I got my order, and it's all good. No further updates necessary.
+#     - I'm satisfied with the delivery; no need to check the status again.
+#     - Thank you for your assistance earlier. I've received my order.
+#     - Just confirming that my order has been received; no need for additional updates.
+#     - The status of my order is not a concern anymore; it arrived on time.
+
+# - intent: not_payment_methods
+#   examples: |
+#     - I don't need to pay. 
+#     - I'm not interested in knowing what payment methods you offer.
+#     - I don't need information on how to pay; I'll figure it out.
+#     - I'm not interested in using PayPal or Venmo; any payment method is fine.
+#     - I won't bother seeking assistance with the credit card issue; I'll handle it myself.
+#     - I'm not concerned about the error message during payment; I'll figure it out.
+#     - I don't care about splitting my payment; any method is acceptable.
+#     - I won't bother figuring out how to make a payment using multiple credit cards.
+#     - I don't need instructions on applying the gift card; I'll handle it on my own. 
+
+# - intent: not_price_match
+#   examples: |
+#     - I just placed an order, and even if it's cheaper on Amazon, I don't need a price match.
+#     - I ordered before the summer sale but don't need the same discount applied.
+#     - I don't need you to match a price from another store; I'm okay with the current pricing.
+#     - I won't be using a discount code with a price match; it's not necessary for me.
+#     - I saw your product listed on another website at a lower cost, but I'm not interested in matching the prices.
+#     - I'm not concerned about your products being available on third-party websites or matching their prices.
+#     - I won't be applying a discount code to an online purchase and requesting a price match.
+#     - I'm not interested in getting the in-store price when purchasing online; I'll proceed with the online pricing.
+#     - I recently bought a product at a certain price, and I'm not interested in retroactive price matching   
+
+# - intent: not_product_stock
+#   examples: |
+#     - I don't need to know your inventory.
+#     - I don't need to check inventory
+#     - don't check inventory
+#     - I have no interest in checking inventory
+#     - I'm not currently looking for black shoes, so no need to check the inventory.
+#     - I won't be checking the inventory for the specific item; I've changed my mind.
+#     - I've decided not to pursue the specific pair of shoes, so no need to check if they are in stock.
+#     - I won't be checking the inventory for the shoes I was looking for; my preferences have changed.
+#     - I won't be exploring new shoes at this time, so no need to check the current stock.
+#     - I'm no longer interested in the pre-order items; there's no need to check their restocking date.
+#     - I won't be considering a restock after an item is sold out; I'll explore other options.
+
+# - intent: not_product_updates
+#   examples: |
+#     - I don't want to know any updates
+#     - I don't want to receive any updates.
+#     - unsubscribe from product updates
+#     - I'm not interested in specific product updates, so no need to subscribe for them.
+#     - I don't want general updates about the website and its offerings.
+#     - I don't want to stay informed about site changes; no need for alternatives.
+#     - I didn't mean to subscribe; please unsubscribe me from updates.
+#     - I'm not interested in following the official Instagram account for updates.
+#     - I won't be setting up alerts for specific products; I'm not interested in that feature.
+#     - I won't be signing up for text updates about sales and promotions.
+
+
+# - intent: not_order_return
+#   examples: |
+#     - keep the item
+#     - I don't need to know your return policy.
+#     - I've decided to keep the item, so no need to start a return.
+#     - I've changed my mind; I want to keep my shoes and won't be returning them.
+#     - I'll be keeping these shoes; no need to go through the return process.
+#     - I've decided against returning the shirt; no need to start the process.
+#     - I'll be keeping the shoes I bought; no need to return them.
+#     - I've received something I ordered recently, and I won't be returning it.
+#     - I'm satisfied with the clothing items; there's no need to check the return policy.
+#     - It's been longer than 30 days, but I won't be making a return.
+#     - I won't be returning items after 30 days; I prefer to keep them without store credit.
+
+# - intent: not_sizing_clarification
+#   examples: |
+#     - I'm not concerned about whether it's American or European sizing.
+#     - I don't need the size chart; I'll choose a size based on what's available.
+#     - I won't be ordering for my kids, so I don't need information about their sizes.
+#     - I'm not concerned about sizing in inches; standard sizing is sufficient.
+#     - I don't need reviews to mention sizing; it's not a factor for me.
+#     - I'm not interested in information about the model's size in the example photos.
+#     - I don't need a size calculator; I'll choose a size without assistance.
+#     - I'm not concerned about unisex sizes; any categorization is acceptable.
+
+
+- intent: not_all
+  examples: |
+    - I prefer not to provide a phone number; can I proceed without it?
+    - I won't be updating my phone number; I no longer use the one provided during account creation.
+    - I don't want to apply any discount to my order.
+    - I'm not interested in applying a discount code to an already on-sale product.
+    - I don't need to apply multiple discount codes; one is sufficient for me 
+    - proceed with my order
+    - I've received my order; no refund is necessary.
+    - My order has already shipped, and I'm happy to keep it.
+    - my shoes have arrived.
+    - not inquiring about the status of my order
+    - Just confirming that my order has been received; no need for additional updates.
+    - The status of my order is not a concern anymore; it arrived on time.
+    - I don't need to pay. 
+    - I'm not interested in knowing what payment methods you offer.
+    - I don't need instructions on applying the gift card; I'll handle it on my own. 
+    - I just placed an order, and even if it's cheaper on Amazon, I don't need a price match.
+    - I don't want to know any updates
+    - I won't be signing up for text updates about sales and promotions.
+    - keep the item
+    - I won't be returning items after 30 days; I prefer to keep them without store credit.
+    - I'm not concerned about unisex sizes; any categorization is acceptable.

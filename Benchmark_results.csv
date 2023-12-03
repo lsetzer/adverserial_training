@@ -1,0 +1,127 @@
+text,intent,intent_prediction.name,intent_prediction.confidence,intent_prediction,confidence,Accurate
+I'm having trouble applying a discount to my order. Can you help me with that?,discount_code,order_cancel,0.5365657806396484,order_cancel,0.5365657806396484,True
+What's the latest content or features added to the site?,product_updates,alternate_info,0.5735485553741455,alternate_info,0.5735485553741455,True
+i'm looking for new shoes,product_stock,inform,0.7700981497764587,inform,0.7700981497764587,True
+I'll use a different email address; it seems the one I entered is not accepted.,not_alternate_info,alternate_info,0.999512791633606,alternate_info,0.999512791633606,True
+I'm not comfortable sharing my contact info; what happens with that information?,not_alternate_info,alternate_info,0.999537467956543,alternate_info,0.999537467956543,True
+"I entered the wrong information, but I don't want to change my contact details.",not_alternate_info,alternate_info,0.9996515512466431,alternate_info,0.9996515512466431,True
+I don't have an email address to provide; can I leave that field blank?,not_alternate_info,alternate_info,0.9998735189437866,alternate_info,0.9998735189437866,True
+What happens with the contact information I provide? I'm not concerned about confidentiality.,not_alternate_info,alternate_info,0.9995319843292236,alternate_info,0.9995319843292236,True
+I don't need to use two discount codes at a time; any pricing is fine.,not_discount_code,discount_code,0.9979268312454224,discount_code,0.9979268312454224,True
+I'm not interested in knowing about the current offers; regular prices are fine.,not_discount_code,price_match,0.39324772357940674,price_match,0.39324772357940674,True
+I'm not concerned about finding a code to use; regular pricing works for me.,not_discount_code,product_updates,0.35879069566726685,product_updates,0.35879069566726685,True
+I don't care if discount codes have expiration dates; it's not a factor for me.,not_discount_code,discount_code,0.9979523420333862,discount_code,0.9979523420333862,True
+I'm not interested in the kind of deals you have right now.,not_discount_code,discount_code,0.9890064001083374,discount_code,0.9890064001083374,True
+I don't care if discount codes last indefinitely or not.,not_discount_code,discount_code,0.99916672706604,discount_code,0.99916672706604,True
+I'm not interested in Black Friday promotions; regular pricing is fine.,not_discount_code,discount_code,0.6641048192977905,discount_code,0.6641048192977905,True
+I don't need a specific discount code; I'll proceed without any promotions.,not_discount_code,discount_code,0.9851924180984497,discount_code,0.9851924180984497,True
+I'm not concerned about the expiration date of the discount code HELLO20.,not_discount_code,discount_code,0.9979535341262817,discount_code,0.9979535341262817,True
+I don't care about ongoing promotions or the types of deals currently offered.,not_discount_code,discount_code,0.9986429810523987,discount_code,0.9986429810523987,True
+I no longer want to cancel the shoes; I'm excited to receive them.,not_order_cancel,order_cancel,0.5026220679283142,order_cancel,0.5026220679283142,True
+"After careful consideration, I've decided to keep my original order.",not_order_cancel,order_cancel,0.3523670434951782,order_cancel,0.3523670434951782,True
+Please continue processing my order; I've changed my mind about canceling.,not_order_cancel,order_cancel,0.9881654977798462,order_cancel,0.9881654977798462,True
+"Upon reflection, I've decided not to cancel my order; everything is as planned.",not_order_cancel,order_cancel,0.9400783777236938,order_cancel,0.9400783777236938,True
+I just submitted an order and would like to proceed with it. No need to cancel.,not_order_cancel,order_cancel,0.9916461110115051,order_cancel,0.9916461110115051,True
+I'd like to maintain my recent order; there's no need to cancel it.,not_order_cancel,order_cancel,0.9803135991096497,order_cancel,0.9803135991096497,True
+I don't want to check the status of my order,not_order_status,order_status,0.9995718598365784,order_status,0.9995718598365784,True
+do not check status of my order,not_order_status,order_status,0.9996141195297241,order_status,0.9996141195297241,True
+"I received my order, and everything is in perfect condition.",not_order_status,order_status,0.7819487452507019,order_status,0.7819487452507019,True
+"My shoes arrived on time, and I'm happy with the delivery.",not_order_status,order_status,0.6075586080551147,order_status,0.6075586080551147,True
+"My package has been delivered, and I don't need any further updates.",not_order_status,product_updates,0.48703187704086304,product_updates,0.48703187704086304,True
+Thank you for the previous update on my order; everything is fine now.,not_order_status,order_status,0.8978264331817627,order_status,0.8978264331817627,True
+"I've received my order, so no need to check the status anymore.",not_order_status,order_status,0.9545186758041382,order_status,0.9545186758041382,True
+I don't care if you accept Apple Pay or not; any payment method is fine.,not_payment_methods,payment_methods,0.9916473627090454,payment_methods,0.9916473627090454,True
+I'm not concerned about the security of the online payment platform.,not_payment_methods,payment_methods,0.9998418092727661,payment_methods,0.9998418092727661,True
+I don't care if I can use PayPal or Venmo; any payment method will work for me.,not_payment_methods,payment_methods,0.9992840886116028,payment_methods,0.9992840886116028,True
+I don't need assistance; I'll handle the credit card problem on my own.,not_payment_methods,payment_methods,0.9883755445480347,payment_methods,0.9883755445480347,True
+I'm not concerned about the security measures of the online payment platform.,not_payment_methods,payment_methods,0.9999010562896729,payment_methods,0.9999010562896729,True
+I'm not interested in price match; the current pricing is acceptable.,not_price_match,price_match,0.9890917539596558,price_match,0.9890917539596558,True
+I don't care about honoring other store's prices; your pricing is fine for me.,not_price_match,price_match,0.996046245098114,price_match,0.996046245098114,True
+I don't need information about selling products on other sites or matching those prices.,not_price_match,price_match,0.9991832375526428,price_match,0.9991832375526428,True
+I won't be using a price from someone else's website; your pricing is acceptable.,not_price_match,price_match,0.9964104294776917,price_match,0.9964104294776917,True
+"I'm not interested in white shoes at the moment, thank you.",not_product_stock,product_stock,0.516965389251709,product_stock,0.516965389251709,True
+I'm not concerned about the inventory right now; just browsing.,not_product_stock,product_stock,0.9212697744369507,product_stock,0.9212697744369507,True
+"I don't need size 9 shoes, so no need to check if they are in stock.",not_product_stock,product_stock,0.9895471334457397,product_stock,0.9895471334457397,True
+I won't be checking the inventory; just wanted to browse the website.,not_product_stock,product_stock,0.958685576915741,product_stock,0.958685576915741,True
+"I've decided not to proceed with purchasing any special shoes, so no need to check for them.",not_product_stock,product_stock,0.46928951144218445,product_stock,0.46928951144218445,True
+"I'm not interested in size 9 shoes at the moment, so no need to check stock.",not_product_stock,product_stock,0.9643535614013672,product_stock,0.9643535614013672,True
+unsubscribe from updates.,not_product_updates,product_updates,0.9997358918190002,product_updates,0.9997358918190002,True
+I'm not interested in what's new on the site right now.,not_product_updates,product_updates,0.8360061645507812,product_updates,0.8360061645507812,True
+I don't need updates; I'm fine with the current information.,not_product_updates,alternate_info,0.8522790670394897,alternate_info,0.8522790670394897,True
+I won't be signing up for updates at the moment.,not_product_updates,product_updates,0.9954968690872192,product_updates,0.9954968690872192,True
+I prefer not to subscribe to product updates; I'm not interested.,not_product_updates,product_updates,0.997677743434906,product_updates,0.997677743434906,True
+I won't be subscribing to any updates on the website.,not_product_updates,product_updates,0.9991415739059448,product_updates,0.9991415739059448,True
+I've decided not to return any shoes; I'm happy with my purchase.,not_order_return,oreder_return,0.868296205997467,oreder_return,0.868296205997467,True
+I won't be initiating any returns; all the items are satisfactory.,not_order_return,oreder_return,0.9103155732154846,oreder_return,0.9103155732154846,True
+Cancel the return process; I'd like to keep the shoes I bought.,not_order_return,oreder_return,0.9320116639137268,oreder_return,0.9320116639137268,True
+I've reconsidered; I don't want to return anything at the moment.,not_order_return,oreder_return,0.9542271494865417,oreder_return,0.9542271494865417,True
+I've changed my mind about returning something; I'll be keeping it.,not_order_return,oreder_return,0.9140862822532654,oreder_return,0.9140862822532654,True
+"I'll be keeping all the items, so there's no need for a return.",not_order_return,oreder_return,0.9123989939689636,oreder_return,0.9123989939689636,True
+I don't care about men's and women's sizing; any size will do.,not_sizing_clarification,sizing_clarification,0.998534083366394,sizing_clarification,0.998534083366394,True
+I don't need to know what size to get; I'll figure it out when the item arrives.,not_sizing_clarification,sizing_clarification,0.5870498418807983,sizing_clarification,0.5870498418807983,True
+I'm not interested in sizing listed in inches; standard sizes are fine for me.,not_sizing_clarification,sizing_clarification,0.9984295964241028,sizing_clarification,0.9984295964241028,True
+I don't care if reviews include sizes; it's not relevant to my decision.,not_sizing_clarification,sizing_clarification,0.9744122624397278,sizing_clarification,0.9744122624397278,True
+I'm not unsure about the size; any size will work for me.,not_sizing_clarification,sizing_clarification,0.9941832423210144,sizing_clarification,0.9941832423210144,True
+I'm having trouble applying a discount to my order. Can you help me with that?,discount_code,order_cancel,0.5365657806396484,order_cancel,0.5365657806396484,False
+What's the latest content or features added to the site?,product_updates,alternate_info,0.5735485553741455,alternate_info,0.5735485553741455,False
+i'm looking for new shoes,product_stock,inform,0.7700981497764587,inform,0.7700981497764587,False
+I'll use a different email address; it seems the one I entered is not accepted.,not_alternate_info,alternate_info,0.999512791633606,alternate_info,0.999512791633606,False
+I'm not comfortable sharing my contact info; what happens with that information?,not_alternate_info,alternate_info,0.999537467956543,alternate_info,0.999537467956543,False
+"I entered the wrong information, but I don't want to change my contact details.",not_alternate_info,alternate_info,0.9996515512466431,alternate_info,0.9996515512466431,False
+I don't have an email address to provide; can I leave that field blank?,not_alternate_info,alternate_info,0.9998735189437866,alternate_info,0.9998735189437866,False
+What happens with the contact information I provide? I'm not concerned about confidentiality.,not_alternate_info,alternate_info,0.9995319843292236,alternate_info,0.9995319843292236,False
+I don't need to use two discount codes at a time; any pricing is fine.,not_discount_code,discount_code,0.9979268312454224,discount_code,0.9979268312454224,False
+I'm not interested in knowing about the current offers; regular prices are fine.,not_discount_code,price_match,0.39324772357940674,price_match,0.39324772357940674,False
+I'm not concerned about finding a code to use; regular pricing works for me.,not_discount_code,product_updates,0.35879069566726685,product_updates,0.35879069566726685,False
+I don't care if discount codes have expiration dates; it's not a factor for me.,not_discount_code,discount_code,0.9979523420333862,discount_code,0.9979523420333862,False
+I'm not interested in the kind of deals you have right now.,not_discount_code,discount_code,0.9890064001083374,discount_code,0.9890064001083374,False
+I don't care if discount codes last indefinitely or not.,not_discount_code,discount_code,0.99916672706604,discount_code,0.99916672706604,False
+I'm not interested in Black Friday promotions; regular pricing is fine.,not_discount_code,discount_code,0.6641048192977905,discount_code,0.6641048192977905,False
+I don't need a specific discount code; I'll proceed without any promotions.,not_discount_code,discount_code,0.9851924180984497,discount_code,0.9851924180984497,False
+I'm not concerned about the expiration date of the discount code HELLO20.,not_discount_code,discount_code,0.9979535341262817,discount_code,0.9979535341262817,False
+I don't care about ongoing promotions or the types of deals currently offered.,not_discount_code,discount_code,0.9986429810523987,discount_code,0.9986429810523987,False
+I no longer want to cancel the shoes; I'm excited to receive them.,not_order_cancel,order_cancel,0.5026220679283142,order_cancel,0.5026220679283142,False
+"After careful consideration, I've decided to keep my original order.",not_order_cancel,order_cancel,0.3523670434951782,order_cancel,0.3523670434951782,False
+Please continue processing my order; I've changed my mind about canceling.,not_order_cancel,order_cancel,0.9881654977798462,order_cancel,0.9881654977798462,False
+"Upon reflection, I've decided not to cancel my order; everything is as planned.",not_order_cancel,order_cancel,0.9400783777236938,order_cancel,0.9400783777236938,False
+I just submitted an order and would like to proceed with it. No need to cancel.,not_order_cancel,order_cancel,0.9916461110115051,order_cancel,0.9916461110115051,False
+I'd like to maintain my recent order; there's no need to cancel it.,not_order_cancel,order_cancel,0.9803135991096497,order_cancel,0.9803135991096497,False
+I don't want to check the status of my order,not_order_status,order_status,0.9995718598365784,order_status,0.9995718598365784,False
+do not check status of my order,not_order_status,order_status,0.9996141195297241,order_status,0.9996141195297241,False
+"I received my order, and everything is in perfect condition.",not_order_status,order_status,0.7819487452507019,order_status,0.7819487452507019,False
+"My shoes arrived on time, and I'm happy with the delivery.",not_order_status,order_status,0.6075586080551147,order_status,0.6075586080551147,False
+"My package has been delivered, and I don't need any further updates.",not_order_status,product_updates,0.48703187704086304,product_updates,0.48703187704086304,False
+Thank you for the previous update on my order; everything is fine now.,not_order_status,order_status,0.8978264331817627,order_status,0.8978264331817627,False
+"I've received my order, so no need to check the status anymore.",not_order_status,order_status,0.9545186758041382,order_status,0.9545186758041382,False
+I don't care if you accept Apple Pay or not; any payment method is fine.,not_payment_methods,payment_methods,0.9916473627090454,payment_methods,0.9916473627090454,False
+I'm not concerned about the security of the online payment platform.,not_payment_methods,payment_methods,0.9998418092727661,payment_methods,0.9998418092727661,False
+I don't care if I can use PayPal or Venmo; any payment method will work for me.,not_payment_methods,payment_methods,0.9992840886116028,payment_methods,0.9992840886116028,False
+I don't need assistance; I'll handle the credit card problem on my own.,not_payment_methods,payment_methods,0.9883755445480347,payment_methods,0.9883755445480347,False
+I'm not concerned about the security measures of the online payment platform.,not_payment_methods,payment_methods,0.9999010562896729,payment_methods,0.9999010562896729,False
+I'm not interested in price match; the current pricing is acceptable.,not_price_match,price_match,0.9890917539596558,price_match,0.9890917539596558,False
+I don't care about honoring other store's prices; your pricing is fine for me.,not_price_match,price_match,0.996046245098114,price_match,0.996046245098114,False
+I don't need information about selling products on other sites or matching those prices.,not_price_match,price_match,0.9991832375526428,price_match,0.9991832375526428,False
+I won't be using a price from someone else's website; your pricing is acceptable.,not_price_match,price_match,0.9964104294776917,price_match,0.9964104294776917,False
+"I'm not interested in white shoes at the moment, thank you.",not_product_stock,product_stock,0.516965389251709,product_stock,0.516965389251709,False
+I'm not concerned about the inventory right now; just browsing.,not_product_stock,product_stock,0.9212697744369507,product_stock,0.9212697744369507,False
+"I don't need size 9 shoes, so no need to check if they are in stock.",not_product_stock,product_stock,0.9895471334457397,product_stock,0.9895471334457397,False
+I won't be checking the inventory; just wanted to browse the website.,not_product_stock,product_stock,0.958685576915741,product_stock,0.958685576915741,False
+"I've decided not to proceed with purchasing any special shoes, so no need to check for them.",not_product_stock,product_stock,0.46928951144218445,product_stock,0.46928951144218445,False
+"I'm not interested in size 9 shoes at the moment, so no need to check stock.",not_product_stock,product_stock,0.9643535614013672,product_stock,0.9643535614013672,False
+unsubscribe from updates.,not_product_updates,product_updates,0.9997358918190002,product_updates,0.9997358918190002,False
+I'm not interested in what's new on the site right now.,not_product_updates,product_updates,0.8360061645507812,product_updates,0.8360061645507812,False
+I don't need updates; I'm fine with the current information.,not_product_updates,alternate_info,0.8522790670394897,alternate_info,0.8522790670394897,False
+I won't be signing up for updates at the moment.,not_product_updates,product_updates,0.9954968690872192,product_updates,0.9954968690872192,False
+I prefer not to subscribe to product updates; I'm not interested.,not_product_updates,product_updates,0.997677743434906,product_updates,0.997677743434906,False
+I won't be subscribing to any updates on the website.,not_product_updates,product_updates,0.9991415739059448,product_updates,0.9991415739059448,False
+I've decided not to return any shoes; I'm happy with my purchase.,not_order_return,oreder_return,0.868296205997467,oreder_return,0.868296205997467,False
+I won't be initiating any returns; all the items are satisfactory.,not_order_return,oreder_return,0.9103155732154846,oreder_return,0.9103155732154846,False
+Cancel the return process; I'd like to keep the shoes I bought.,not_order_return,oreder_return,0.9320116639137268,oreder_return,0.9320116639137268,False
+I've reconsidered; I don't want to return anything at the moment.,not_order_return,oreder_return,0.9542271494865417,oreder_return,0.9542271494865417,False
+I've changed my mind about returning something; I'll be keeping it.,not_order_return,oreder_return,0.9140862822532654,oreder_return,0.9140862822532654,False
+"I'll be keeping all the items, so there's no need for a return.",not_order_return,oreder_return,0.9123989939689636,oreder_return,0.9123989939689636,False
+I don't care about men's and women's sizing; any size will do.,not_sizing_clarification,sizing_clarification,0.998534083366394,sizing_clarification,0.998534083366394,False
+I don't need to know what size to get; I'll figure it out when the item arrives.,not_sizing_clarification,sizing_clarification,0.5870498418807983,sizing_clarification,0.5870498418807983,False
+I'm not interested in sizing listed in inches; standard sizes are fine for me.,not_sizing_clarification,sizing_clarification,0.9984295964241028,sizing_clarification,0.9984295964241028,False
+I don't care if reviews include sizes; it's not relevant to my decision.,not_sizing_clarification,sizing_clarification,0.9744122624397278,sizing_clarification,0.9744122624397278,False
+I'm not unsure about the size; any size will work for me.,not_sizing_clarification,sizing_clarification,0.9941832423210144,sizing_clarification,0.9941832423210144,False
